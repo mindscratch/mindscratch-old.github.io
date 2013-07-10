@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://craigwickesser.com/sitemap.xml 

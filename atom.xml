@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Craig Wickesser]]></title>
+  <link href="http://craigwickesser.com/atom.xml" rel="self"/>
+  <link href="http://craigwickesser.com/"/>
+  <updated>2013-07-09T20:21:25-04:00</updated>
+  <id>http://craigwickesser.com/</id>
+  <author>
+    <name><![CDATA[Craig Wickesser]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Yeezus!]]></title>
+    <link href="http://craigwickesser.com/blog/2013/07/09/yeezus-slash/"/>
+    <updated>2013-07-09T19:52:00-04:00</updated>
+    <id>http://craigwickesser.com/blog/2013/07/09/yeezus-slash</id>
+    <content type="html"><![CDATA[<p>Typical, Hello World. I&rsquo;m planning a reboot of my website and hopefully this is the beginning.</p>
+]]></content>
+  </entry>
+  
+</feed>
