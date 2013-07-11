@@ -82,8 +82,8 @@ googleplus_user: 115282371725552503815
 googleplus_hidden: false
 
 # Disqus Comments
-disqus_short_name: craigwickesser
-disqus_show_comment_count: false
+#disqus_short_name: craigwickesser
+#disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-42338872-1
