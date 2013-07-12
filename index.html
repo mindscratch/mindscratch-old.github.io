@@ -112,6 +112,77 @@
 
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/">Command-Query Responsibility Segregation With Event Sourcing Notes</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-11T21:03:00-04:00" pubdate data-updated="true">Jul 11<span>th</span>, 2013</time> - 
+        
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>CQRS</h1>
+
+<p>Some brief notes about CQRS (Command-Query Responsibility Segregation) with <a href="http://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a>:</p>
+
+<ul>
+<li>Every state change is materialized in an <em>Event</em></li>
+<li>All Events are sent to an <em>EventProcessor</em></li>
+<li>EventProcessor stores all events in an <em>Event Log</em></li>
+<li>System can be reset and <em>Event Log</em> replayed</li>
+<li>No need for ORM, just persist the Events</li>
+<li>Many different <em>EventListeners</em> can be added to EventProcessor (or listen directly on the Event log)</li>
+</ul>
+
+
+<p>Some sample apps:</p>
+
+<ul>
+<li><a href="https://github.com/cavalle/banksimplistic">https://github.com/cavalle/banksimplistic</a></li>
+<li><a href="https://github.com/slashdotdash/rcqrs">https://github.com/slashdotdash/rcqrs</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+</div>
+
+      </article>
+    
+    
+      <article class="span4">
+        <div class="article-format">
+
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/07/09/yeezus-slash/">Yeezus!</a></h1>
     
     
@@ -157,6 +228,79 @@
 
       </article>
     
+    
+      <article class="span4">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/02/make-some-objects-for-goodness-sake/">Make Some Objects for Goodness Sake</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-02T21:43:00-04:00" pubdate data-updated="true">Jun 2<span>nd</span>, 2012</time> - 
+        
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em>This post was originally posted on June 2, 2012 on my blog hosted at Blogger, but is being reposted here so the post doesn&rsquo;t get lost since the Blogger blog is no longer being maintained.</em></p>
+
+<hr />
+
+<p>There’s been lots of discussion lately about making Rails more object oriented. I’m not sure what spurred all the recent discussions, but I think it’s great that there are lots of discussions spreading around the community.</p>
+
+<p>When I first began learning Rails I quickly bumped into those articles talking about fat models and skinny controllers. I quickly followed suite as it seemed to make sense; initially. Then I got to a point where thought, “why not put some of this stuff into plain old ruby objects in the lib directory?”. I began doing that and have continued doing that ever since and I, as many recent Rails developers have written and talked about, think you should too.</p>
+
+<p>Some of the recent libraries, posts or books related to more object oriented Rails include:</p>
+
+<ul>
+<li><a href="http://objectsonrails.com/">Objects on Rails</a> by <a href="http://avdi.org/">Avdi Grim</a> &ndash; book</li>
+<li><a href="https://github.com/jonleighton/focused_controller">Focused Controller</a> &ndash; ruby gem</li>
+<li><a href="http://jamesgolick.com/2012/5/22/objectify-a-better-way-to-build-rails-applications.html">Objectify</a> &ndash; blog post about a gem</li>
+<li>I also saw a project on github that was some sort of command pattern implementation, but I can’t recall the name.</li>
+</ul>
+
+
+<p>Prior to all of those, and I’m sure I’m missing some, I heard Jeff Casmir’s <a href="http://en.oreilly.com/rails2011/public/schedule/speaker/5453">talk</a> at RailsConf 2011. He talked about potentially getting away from the dogma of fat models, skinny controllers by suggesting people create more libraries/gems, use the presenter pattern, etc.</p>
+
+<p>In parting I’d just like to say, don’t be afraid of having code outside of app/models and app/controllers. Ruby is object oriented and Rails is a framework that is built with Ruby, so go ahead and use your bad ass OO skills already! Rails provides lots of conventions and opinionated views, but that doesn’t mean you can’t do what makes the most sense for your applications. And please, feel free to use the lib directory or even create some gems that you could potentially reuse.</p>
+
+<p>Hell, get real crazy and build some engines! (I’ve built 3 in the last 2 months).</p>
+</div>
+  
+  
+
+
+</div>
+
+      </article>
+    
     </div>
       <div class="row">
         <ul class="pager">
@@ -176,7 +320,15 @@
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/">Command-Query Responsibility Segregation with Event Sourcing Notes</a>
+        </li>
+      
+        <li>
           <a href="/blog/2013/07/09/yeezus-slash/">Yeezus!</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2012/06/02/make-some-objects-for-goodness-sake/">Make some objects for goodness sake</a>
         </li>
       
     </ul>
