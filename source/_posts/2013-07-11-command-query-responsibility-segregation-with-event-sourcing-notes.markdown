@@ -9,7 +9,7 @@ categories:
 # CQRS
 
 Some brief notes about CQRS (Command-Query Responsibility Segregation) with [Event Sourcing](http://martinfowler.com/eaaDev/EventSourcing.html):
-
+<!--more-->
 * Every state change is materialized in an *Event*
 * All Events are sent to an *EventProcessor* 
 * EventProcessor stores all events in an *Event Log*

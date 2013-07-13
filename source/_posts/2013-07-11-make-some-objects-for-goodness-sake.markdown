@@ -12,9 +12,9 @@ categories:
 
 
 There’s been lots of discussion lately about making Rails more object oriented. I’m not sure what spurred all the recent discussions, but I think it’s great that there are lots of discussions spreading around the community.
+<!--more-->
 
 When I first began learning Rails I quickly bumped into those articles talking about fat models and skinny controllers. I quickly followed suite as it seemed to make sense; initially. Then I got to a point where thought, “why not put some of this stuff into plain old ruby objects in the lib directory?”. I began doing that and have continued doing that ever since and I, as many recent Rails developers have written and talked about, think you should too.
-
 Some of the recent libraries, posts or books related to more object oriented Rails include:
 
 * [Objects on Rails](http://objectsonrails.com/) by [Avdi Grim](http://avdi.org/) - book
