@@ -4,7 +4,7 @@
   <title><![CDATA[Craig Wickesser]]></title>
   <link href="http://mindscratch.github.io/atom.xml" rel="self"/>
   <link href="http://mindscratch.github.io/"/>
-  <updated>2013-07-11T21:12:51-04:00</updated>
+  <updated>2013-07-12T22:53:57-04:00</updated>
   <id>http://mindscratch.github.io/</id>
   <author>
     <name><![CDATA[Craig Wickesser]]></name>
@@ -14,6 +14,35 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Prototyping with a Server in the Browser]]></title>
+    <link href="http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/"/>
+    <updated>2013-07-12T22:08:00-04:00</updated>
+    <id>http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser</id>
+    <content type="html"><![CDATA[<p>Prototyping is often used to &ldquo;quickly&rdquo; implement a new feature or least part of a feature with the hopes of getting feedback to help determine if a <em>real</em> implementation should be provided.</p>
+
+<!--more-->
+
+
+<p>All to often our customers, managers or leads see the prototype and think, &ldquo;Great, now we can move onto the next feature&rdquo;, completely forgetting what they&rsquo;ve seen is the prototype. Ah, the perils of being a developer.</p>
+
+<p>Sometimes to &ldquo;whip up&rdquo; a prototype I&rsquo;ve hacked together some server and client-side code, dreading it might end up in production. In fact, one of the downsides to hacking together some code for a prototype is having to evolve the hacked in code as users, customers, managers, etc see the prototype and ask you to tweak it here and there.</p>
+
+<p>In a recent two-week sprint, I decided it would be worth trying to implement the UI portion of a new set of features before doing any server-side work. I thought by using a <em>fake</em> server in the browser I could defer having to implement server-side logic and database modeling tasks.</p>
+
+<p>I did a quick search and found a presentation by Pavel Filippov titled <a href="http://emdin.info/r/sinon-talk/#1">Fake API using Sinon.JS
+and LocalStorage</a>. Genius! I hadn&rsquo;t thought about the <a href="http://sinonjs.org/docs/#server">FakeServer</a> provided by Sinon.JS until I saw the aforementioned slides.</p>
+
+<p>I present my version of a <em>Server in the Browser</em>:</p>
+
+<div><script src='https://gist.github.com/5951148.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>Certainly this <em>fake</em> logic in the client could do more complicated work such as actually storing data using client-side <a href="http://www.html5rocks.com/en/features/storage">storage</a>. In any event, I look forward to wrapping up my current sprint at work to see just how well this &lsquo;Server in the Browser&rsquo; goes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Command-Query Responsibility Segregation with Event Sourcing Notes]]></title>
     <link href="http://mindscratch.github.io/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/"/>
     <updated>2013-07-11T21:03:00-04:00</updated>
@@ -21,6 +50,9 @@
     <content type="html"><![CDATA[<h1>CQRS</h1>
 
 <p>Some brief notes about CQRS (Command-Query Responsibility Segregation) with <a href="http://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a>:</p>
+
+<!--more-->
+
 
 <ul>
 <li>Every state change is materialized in an <em>Event</em></li>
@@ -62,9 +94,11 @@
 
 <p>There’s been lots of discussion lately about making Rails more object oriented. I’m not sure what spurred all the recent discussions, but I think it’s great that there are lots of discussions spreading around the community.</p>
 
-<p>When I first began learning Rails I quickly bumped into those articles talking about fat models and skinny controllers. I quickly followed suite as it seemed to make sense; initially. Then I got to a point where thought, “why not put some of this stuff into plain old ruby objects in the lib directory?”. I began doing that and have continued doing that ever since and I, as many recent Rails developers have written and talked about, think you should too.</p>
+<!--more-->
 
-<p>Some of the recent libraries, posts or books related to more object oriented Rails include:</p>
+
+<p>When I first began learning Rails I quickly bumped into those articles talking about fat models and skinny controllers. I quickly followed suite as it seemed to make sense; initially. Then I got to a point where thought, “why not put some of this stuff into plain old ruby objects in the lib directory?”. I began doing that and have continued doing that ever since and I, as many recent Rails developers have written and talked about, think you should too.
+Some of the recent libraries, posts or books related to more object oriented Rails include:</p>
 
 <ul>
 <li><a href="http://objectsonrails.com/">Objects on Rails</a> by <a href="http://avdi.org/">Avdi Grim</a> &ndash; book</li>

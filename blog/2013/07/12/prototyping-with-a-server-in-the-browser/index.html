@@ -1,12 +1,11 @@
 
-
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Craig Wickesser</title>
+  <title>Prototyping with a Server in the Browser - Craig Wickesser</title>
   <meta name="author" content="Craig Wickesser">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -14,7 +13,7 @@
   
     
   
-  <meta name="description" content=" ">
+  <meta name="description" content="Prototyping is often used to &ldquo;quickly&rdquo; implement a new feature or least part of a feature with the hopes of getting feedback to help &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -22,17 +21,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mindscratch.github.io/">
+  <link rel="canonical" href="http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Craig Wickesser" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Craig Wickesser" />
-  <meta name="og:title" content="Craig Wickesser" />
-  <meta name="og:description" content=" " />
-  <meta name="og:url" content="http://mindscratch.github.io/index.html"/>
-  <meta name="url" content="http://mindscratch.github.io/index.html">
+  <meta name="og:title" content="Prototyping with a Server in the Browser" />
+  <meta name="og:description" content="Prototyping is often used to &ldquo;quickly&rdquo; implement a new feature or least part of a feature with the hopes of getting feedback to help &hellip;" />
+  <meta name="og:url" content="http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/"/>
+  <meta name="url" content="http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/">
+  
+  <meta name="subject" content=""/>
+  <meta name="category" content=""/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -56,25 +58,7 @@
 </head>
 
 <body   >
-  <div id="front-wrapper">
-  <div id="hero">
-    <div id="hero-inner" >
-      <div class="container">
-        <div class="span10 offset1">
-  <h1>
-    Craig Wickesser
-  </h1>
-  <h2></h2>
-</div>
-
-      </div>
-    </div>
-  </div>
-  <section id="sub-hero">
-    <div class="container">
-      <div class="row">
-  <div class="navbar">
-    <div class="navbar">
+  <nav role="navigation"><div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="/">Craig Wickesser</a>
     <ul class="nav">
@@ -96,23 +80,15 @@
     
   </div>
 </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  <div class="container">
-    <div class="row" id="post-container">
-    
-    
-    
-      <article class="span4">
+</nav>
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span8 offset2" role="article">
         <div class="article-format">
 
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/07/12/prototyping-with-a-server-in-the-browser/">Prototyping With a Server in the Browser</a></h1>
+      <h1 class="entry-title">Prototyping With a Server in the Browser</h1>
     
     
       <p class="meta">
@@ -149,30 +125,31 @@
 
   <div class="entry-content"><p>Prototyping is often used to &ldquo;quickly&rdquo; implement a new feature or least part of a feature with the hopes of getting feedback to help determine if a <em>real</em> implementation should be provided.</p>
 
+<!--more-->
+
+
+<p>All to often our customers, managers or leads see the prototype and think, &ldquo;Great, now we can move onto the next feature&rdquo;, completely forgetting what they&rsquo;ve seen is the prototype. Ah, the perils of being a developer.</p>
+
+<p>Sometimes to &ldquo;whip up&rdquo; a prototype I&rsquo;ve hacked together some server and client-side code, dreading it might end up in production. In fact, one of the downsides to hacking together some code for a prototype is having to evolve the hacked in code as users, customers, managers, etc see the prototype and ask you to tweak it here and there.</p>
+
+<p>In a recent two-week sprint, I decided it would be worth trying to implement the UI portion of a new set of features before doing any server-side work. I thought by using a <em>fake</em> server in the browser I could defer having to implement server-side logic and database modeling tasks.</p>
+
+<p>I did a quick search and found a presentation by Pavel Filippov titled <a href="http://emdin.info/r/sinon-talk/#1">Fake API using Sinon.JS
+and LocalStorage</a>. Genius! I hadn&rsquo;t thought about the <a href="http://sinonjs.org/docs/#server">FakeServer</a> provided by Sinon.JS until I saw the aforementioned slides.</p>
+
+<p>I present my version of a <em>Server in the Browser</em>:</p>
+
+<div><script src='https://gist.github.com/5951148.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>Certainly this <em>fake</em> logic in the client could do more complicated work such as actually storing data using client-side <a href="http://www.html5rocks.com/en/features/storage">storage</a>. In any event, I look forward to wrapping up my current sprint at work to see just how well this &lsquo;Server in the Browser&rsquo; goes.</p>
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013/07/12/prototyping-with-a-server-in-the-browser/">Follow along &rarr;</a>
-    </footer>
-  
 
 
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/">Command-Query Responsibility Segregation With Event Sourcing Notes</a></h1>
-    
-    
-      <p class="meta">
-        
+  <footer>
+    <p class="meta">
+      
   
 
 
@@ -180,8 +157,8 @@
     <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
   
 
- - 
-        
+
+      
 
 
 
@@ -193,155 +170,33 @@
   
 
 
-<time datetime="2013-07-11T21:03:00-04:00" pubdate data-updated="true">Jul 11<span>th</span>, 2013</time> - 
-        
+<time datetime="2013-07-12T22:08:00-04:00" pubdate data-updated="true">Jul 12<span>th</span>, 2013</time>
+      
 
 
-        
-      </p>
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><h1>CQRS</h1>
-
-<p>Some brief notes about CQRS (Command-Query Responsibility Segregation) with <a href="http://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a>:</p>
-
-</div>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/" data-via="mind_scratch" data-counturl="http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/" >Tweet</a>
   
   
-    <footer>
-      <a rel="full-article" href="/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/">Follow along &rarr;</a>
-    </footer>
   
-
-
 </div>
 
+    
+    
+      <a class="pull-left" href="/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/" title="Previous Post: Command-Query Responsibility Segregation with Event Sourcing Notes">&laquo; Command-Query Responsibility Segregation with Event Sourcing Notes</a>
+    
+    
+  </footer>
+
+</div>
+
+        
       </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/09/yeezus-slash/">Yeezus!</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-09T19:52:00-04:00" pubdate data-updated="true">Jul 9<span>th</span>, 2013</time> - 
-        
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Typical, Hello World. I&rsquo;m planning a reboot of my website and hopefully this is the beginning.</p>
-</div>
-  
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/02/make-some-objects-for-goodness-sake/">Make Some Objects for Goodness Sake</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-02T21:43:00-04:00" pubdate data-updated="true">Jun 2<span>nd</span>, 2012</time> - 
-        
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>This post was originally posted on June 2, 2012 on my blog hosted at Blogger, but is being reposted here so the post doesn&rsquo;t get lost since the Blogger blog is no longer being maintained.</em></p>
-
-<hr />
-
-<p>There’s been lots of discussion lately about making Rails more object oriented. I’m not sure what spurred all the recent discussions, but I think it’s great that there are lots of discussions spreading around the community.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/06/02/make-some-objects-for-goodness-sake/">Follow along &rarr;</a>
-    </footer>
-  
-
-
-</div>
-
-      </article>
-    
     </div>
-      <div class="row">
-        <ul class="pager">
-          
-          
-        </ul>
-      </div>
   </div>
-</div>
-
-
   <div id="footer-widgets">
   <div class="container">
     <div class="row">
