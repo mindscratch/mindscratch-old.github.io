@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: books | Craig Wickesser]]></title>
+  <link href="http://mindscratch.github.io/blog/categories/books/atom.xml" rel="self"/>
+  <link href="http://mindscratch.github.io/"/>
+  <updated>2013-07-23T21:05:46-04:00</updated>
+  <id>http://mindscratch.github.io/</id>
+  <author>
+    <name><![CDATA[Craig Wickesser]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Book Recommendation: Working with Unix Processes]]></title>
+    <link href="http://mindscratch.github.io/blog/2013/07/23/book-recommendation-working-with-unix-processes/"/>
+    <updated>2013-07-23T20:53:00-04:00</updated>
+    <id>http://mindscratch.github.io/blog/2013/07/23/book-recommendation-working-with-unix-processes</id>
+    <content type="html"><![CDATA[<p>Yesterday I received my copy of <a href="http://www.jstorimer.com/products/working-with-unix-processes">Working with Unix Processes</a> written by <a href="http://www.jstorimer.com">Jesse Storimer</a>. I&rsquo;d heard about the book months ago, it might have been even longer.</p>
+
+<p>Today I had some to sit by myself and do some reading.<!--more--> Here&rsquo;s are my thoughts:</p>
+
+<ul>
+<li>great information: this book contains lots of great information about working with processes, as you might expect. The key here is that Jesse actually delivers, what a delight.</li>
+<li>easy to read: something about the font, spacing and use of whitespace on pages was really pleasant</li>
+<li>just enough: content, Jesse doesn&rsquo;t bore you with 500 pages of information copied from Linux man pages, instead he hits the key points and provides enough information to really give you a great understanding of what&rsquo;s going on with processes in Unix</li>
+</ul>
+
+
+<p>If you&rsquo;re new to Unix or have years of experience, but still aren&rsquo;t real sure what &ldquo;fork + exec&rdquo; is and why it matters, then this book is for you!</p>
+]]></content>
+  </entry>
+  
+</feed>
