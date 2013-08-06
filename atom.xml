@@ -4,7 +4,7 @@
   <title><![CDATA[Craig Wickesser]]></title>
   <link href="http://mindscratch.github.io/atom.xml" rel="self"/>
   <link href="http://mindscratch.github.io/"/>
-  <updated>2013-07-23T21:05:46-04:00</updated>
+  <updated>2013-08-05T21:11:54-04:00</updated>
   <id>http://mindscratch.github.io/</id>
   <author>
     <name><![CDATA[Craig Wickesser]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rack API Image]]></title>
+    <link href="http://mindscratch.github.io/blog/2013/08/05/rack-api-image/"/>
+    <updated>2013-08-05T21:08:00-04:00</updated>
+    <id>http://mindscratch.github.io/blog/2013/08/05/rack-api-image</id>
+    <content type="html"><![CDATA[<p>A simple diagram taken from the excellent video &ldquo;<a href="https://vimeo.com/user12143456/review/69109140/c72efbd052">Rebuilding a Ruby web server</a>&rdquo; showing the basic <a href="http://rack.github.io/">Rack</a> specification:</p>
+
+<p><img class="center" src="http://mindscratch.github.io/images/rack-api.png"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Book Recommendation: Working with Unix Processes]]></title>
