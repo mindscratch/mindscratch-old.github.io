@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: golang | Craig Wickesser]]></title>
-  <link href="http://mindscratch.github.io/blog/categories/golang/atom.xml" rel="self"/>
+  <title><![CDATA[Category: golang,go | Craig Wickesser]]></title>
+  <link href="http://mindscratch.github.io/blog/categories/golang-go/atom.xml" rel="self"/>
   <link href="http://mindscratch.github.io/"/>
-  <updated>2013-11-15T12:51:54-05:00</updated>
+  <updated>2013-11-15T12:53:01-05:00</updated>
   <id>http://mindscratch.github.io/</id>
   <author>
     <name><![CDATA[Craig Wickesser]]></name>
