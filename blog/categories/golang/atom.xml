@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: golang | Craig Wickesser]]></title>
+  <link href="http://mindscratch.github.io/blog/categories/golang/atom.xml" rel="self"/>
+  <link href="http://mindscratch.github.io/"/>
+  <updated>2013-11-15T12:51:54-05:00</updated>
+  <id>http://mindscratch.github.io/</id>
+  <author>
+    <name><![CDATA[Craig Wickesser]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[gobrew::fw]]></title>
+    <link href="http://mindscratch.github.io/blog/2013/11/15/gobrewfw/"/>
+    <updated>2013-11-15T11:07:00-05:00</updated>
+    <id>http://mindscratch.github.io/blog/2013/11/15/gobrewfw</id>
+    <content type="html"><![CDATA[<p>In the Ruby world there&rsquo;s a tool called <a href="http://rvm.io">RVM</a> which makes it easy to install and switch between multiple Ruby versions. However, for developers that work inside a restrictive LAN or behind a Firewall that prevents easy access to sites on the Internet, RVM wasn&rsquo;t a viable option until <a href="https://github.com/stevenhaddox/rvm_fw">RVM::FW</a> was born. <!--more--> <a href="https://github.com/stevenhaddox">Steven Haddox</a> created RVM::FW to allow developers to use RVM in restricted environments.</p>
+
+<p>I&rsquo;ve helped <a href="https://github.com/stevenhaddox/rvm_fw/graphs/contributors">contribute</a> (a little) to RVM::FW and I&rsquo;ve also setup and managed RVM::FW in my work environment.</p>
+
+<p>I&rsquo;ve been slowly learning <a href="http://golang.org/">Go</a> and just last night I stumbled onto <a href="https://github.com/grobins2/gobrew">gobrew</a>:</p>
+
+<blockquote><p>Shell script to download and set GO environmental paths to allow multiple versions.</p></blockquote>
+
+<p>I believe there are few alternatives to gobrew such as <a href="https://github.com/moovweb/gvm">gvm</a>, but I found gobrew first and I&rsquo;ve used it so I&rsquo;m focusing on it (I&rsquo;ve also just <a href="https://github.com/grobins2/gobrew/pull/2">contributed</a> to it).</p>
+
+<p>Since RVM::FW has brought me a lot of joy at work and I&rsquo;m a budding Go programmer, I&rsquo;ve decided to take on <a href="https://github.com/mindscratch/gobrew_fw">gobrew::fw</a>. The project has just been created so there&rsquo;s nothing to see just yet, but soon enough I hope to have an application that enables:</p>
+
+<ul>
+<li>being able to download and install gobrew</li>
+<li>being able to be a source for Go installation files
+
+<ul>
+<li>instead of gobrew trying to download them from go.googlecode.com</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Are you interested in this project? Would it be of use to you? If so, drop me a message on twitter, I&rsquo;m <a href="https://twitter.com/mind_scratch">@mind_scratch</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
