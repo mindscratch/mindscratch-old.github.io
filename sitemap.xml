@@ -4,48 +4,34 @@
         <loc>
             http://mindscratch.github.io/blog/2012/06/02/make-some-objects-for-goodness-sake/
         </loc>
-        <lastmod>2013-07-12T22:18:43-04:00</lastmod>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/blog/2013/07/09/yeezus-slash/</loc>
-        <lastmod>2013-07-10T20:35:41-04:00</lastmod>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://mindscratch.github.io/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/
         </loc>
-        <lastmod>2013-07-12T22:17:56-04:00</lastmod>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/
         </loc>
-        <lastmod>2013-07-12T22:49:54-04:00</lastmod>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://mindscratch.github.io/blog/2013/07/23/book-recommendation-working-with-unix-processes/
-        </loc>
-        <lastmod>2013-07-23T21:05:38-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://mindscratch.github.io/blog/2013/08/05/rack-api-image/</loc>
-        <lastmod>2013-08-05T21:11:34-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://mindscratch.github.io/blog/2013/09/01/go-resources/</loc>
-        <lastmod>2013-09-01T20:19:36-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://mindscratch.github.io/blog/2013/11/15/gobrewfw/</loc>
-        <lastmod>2013-11-15T12:52:57-05:00</lastmod>
+        <loc>http://mindscratch.github.io/blog/2013/12/06/go-imports-with-underscores/</loc>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/blog/archives/</loc>
-        <lastmod>2013-11-15T12:52:57-05:00</lastmod>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/</loc>
-        <lastmod>2013-11-15T12:52:57-05:00</lastmod>
+        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
     </url>
 </urlset>

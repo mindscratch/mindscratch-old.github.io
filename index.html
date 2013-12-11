@@ -112,7 +112,7 @@
 
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/11/15/gobrewfw/">Gobrew::fw</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/12/06/go-imports-with-underscores/">Go: Imports With Underscores</a></h1>
     
     
       <p class="meta">
@@ -137,13 +137,13 @@
   
 
 
-<time datetime="2013-11-15T11:07:00-05:00" pubdate data-updated="true">Nov 15<span>th</span>, 2013</time> - 
+<time datetime="2013-12-06T23:10:00-05:00" pubdate data-updated="true">Dec 6<span>th</span>, 2013</time> - 
         
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/golang-go/'>golang,go</a>
+    <a class='category' href='/blog/categories/chain/'>chain</a>, <a class='category' href='/blog/categories/golang/'>golang,</a>
   
 </span>
 
@@ -154,234 +154,22 @@ posted in
   </header>
 
 
-  <div class="entry-content"><p>In the Ruby world there&rsquo;s a tool called <a href="http://rvm.io">RVM</a> which makes it easy to install and switch between multiple Ruby versions. However, for developers that work inside a restrictive LAN or behind a Firewall that prevents easy access to sites on the Internet, RVM wasn&rsquo;t a viable option until <a href="https://github.com/stevenhaddox/rvm_fw">RVM::FW</a> was born. </div>
+  <div class="entry-content"><p>One way I&rsquo;m learning Go is to look at open source Go projects. To list a few:</p>
+
+<ul>
+<li><a href="https://github.com/russross/blackfriday">blackfriday</a></li>
+<li><a href="https://github.com/kelseyhightower/envconfig">envconfig</a></li>
+<li><a href="https://github.com/smartystreets/goconvey">GoConvey</a></li>
+</ul>
+
+
+<p>Something I&rsquo;ve seen in a few places are imports that have an underscore  <a href="https://github.com/smartystreets/goconvey/blob/24673de23f07dcdbf0fd5b72c9c24dff5840f7db/goconvey.go#L26">before the name</a> of the package.</p>
+
+</div>
   
   
     <footer>
-      <a rel="full-article" href="/blog/2013/11/15/gobrewfw/">Follow along &rarr;</a>
-    </footer>
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/09/01/go-resources/">Go Resources</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-01T20:05:00-04:00" pubdate data-updated="true">Sep 1<span>st</span>, 2013</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/go/'>go</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Recently I&rsquo;ve been taking a look at <a href="http://golang.org/">Go by Googlers</a>. Go looks like a very interesting language because of its relatively small syntax, fulfilling standard library and <a href="http://godoc.org/">great documentation</a>.</p>
-
-<p>Here&rsquo;s a few links I&rsquo;ve bookmarked recently that I thought I&rsquo;d share for anyone else getting started or perhaps for myself to look back at when I&rsquo;m a Go Guru :)</p>
-
-<h2>Official</h2>
-
-<ul>
-<li><a href="http://golang.org/">http://golang.org/</a> &ndash; Go official page</li>
-<li><a href="http://godoc.org/">http://godoc.org/</a> &ndash; Go documentation</li>
-<li><a href="Go%20at%20Google:%20Language%20Design%20in%20the%20Service%20of%20Software%20Engineering">http://talks.golang.org/2012/splash.article</a></li>
-</ul>
-
-
-<h2>Books</h2>
-
-<ul>
-<li><a href="http://www.miek.nl/projects/learninggo/">Learning Go</a> [$]</li>
-<li><a href="http://www.golang-book.com/">An Introduction to Programming in Go</a> [free]</li>
-<li><a href="http://www.qtrac.eu/gobook.html">Programming in Go</a> [$]</li>
-<li><a href="http://manning.com/shaw/">Go in Action</a> [$]</li>
-</ul>
-
-
-<h2>Blog Posts</h2>
-
-<ul>
-<li><a href="Ferret:%20A%20Resourceful%20Substring%20Search%20Engine%20in%20Go">http://www.tamber.com/posts/ferret.html</a></li>
-<li><a href="Recycling%20memory%20buffers%20in%20Go">http://blog.cloudflare.com/recycling-memory-buffers-in-go</a></li>
-<li><a href="Go%20After%202%20Years%20in%20Production">http://blog.iron.io/2013/08/go-after-2-years-in-production.html</a></li>
-<li><a href="Two%20recent%20Go%20talks">http://blog.golang.org/two-recent-go-talks</a> (from Jan. 2013, pretty good)</li>
-<li><a href="How%20We%20Went%20from%2030%20Servers%20to%202:%20Go">http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html</a></li>
-<li><a href="What's%20Going%20On">http://jmoiron.net/blog/whats-going-on/</a></li>
-</ul>
-
-
-<h2>Libraries/Tools/Gists</h2>
-
-<ul>
-<li><a href="Sarama">https://github.com/Shopify/sarama</a> &ndash; <a href="https://kafka.apache.org/">Kafka</a> client</li>
-<li><a href="GoSublime">https://github.com/DisposaBoy/GoSublime</a> &ndash; plugin for <a href="http://www.sublimetext.com/">SublimeText</a></li>
-<li><a href="Using%20Go%20for%20embarrassingly%20parallel%20scripts">https://gist.github.com/jasonroelofs/4170926</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/08/05/rack-api-image/">Rack API Image</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-08-05T21:08:00-04:00" pubdate data-updated="true">Aug 5<span>th</span>, 2013</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/rack/'>rack,</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A simple diagram taken from the excellent video &ldquo;<a href="https://vimeo.com/user12143456/review/69109140/c72efbd052">Rebuilding a Ruby web server</a>&rdquo; showing the basic <a href="http://rack.github.io/">Rack</a> specification:</p>
-
-<p><img class="center" src="/images/rack-api.png"></p>
-</div>
-  
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/23/book-recommendation-working-with-unix-processes/">Book Recommendation: Working With Unix Processes</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/115282371725552503815?rel=author"><span class="fn">Craig Wickesser</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-23T20:53:00-04:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2013</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/books/'>books</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday I received my copy of <a href="http://www.jstorimer.com/products/working-with-unix-processes">Working with Unix Processes</a> written by <a href="http://www.jstorimer.com">Jesse Storimer</a>. I&rsquo;d heard about the book months ago, it might have been even longer.</p>
-
-<p>Today I had some to sit by myself and do some reading.</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013/07/23/book-recommendation-working-with-unix-processes/">Follow along &rarr;</a>
+      <a rel="full-article" href="/blog/2013/12/06/go-imports-with-underscores/">Follow along &rarr;</a>
     </footer>
   
 
@@ -634,23 +422,23 @@ posted in
     <ul class="recent_posts">
       
         <li>
-          <a href="/blog/2013/11/15/gobrewfw/">gobrew::fw</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2013/09/01/go-resources/">Go Resources</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2013/08/05/rack-api-image/">Rack API Image</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2013/07/23/book-recommendation-working-with-unix-processes/">Book Recommendation: Working with Unix Processes</a>
+          <a href="/blog/2013/12/06/go-imports-with-underscores/">Go: imports with underscores</a>
         </li>
       
         <li>
           <a href="/blog/2013/07/12/prototyping-with-a-server-in-the-browser/">Prototyping with a Server in the Browser</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/">Command-Query Responsibility Segregation with Event Sourcing Notes</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/07/09/yeezus-slash/">Yeezus!</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2012/06/02/make-some-objects-for-goodness-sake/">Make some objects for goodness sake</a>
         </li>
       
     </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Craig Wickesser]]></title>
   <link href="http://mindscratch.github.io/atom.xml" rel="self"/>
   <link href="http://mindscratch.github.io/"/>
-  <updated>2013-11-15T12:53:01-05:00</updated>
+  <updated>2013-12-10T20:10:10-05:00</updated>
   <id>http://mindscratch.github.io/</id>
   <author>
     <name><![CDATA[Craig Wickesser]]></name>
@@ -14,116 +14,46 @@
 
   
   <entry>
-    <title type="html"><![CDATA[gobrew::fw]]></title>
-    <link href="http://mindscratch.github.io/blog/2013/11/15/gobrewfw/"/>
-    <updated>2013-11-15T11:07:00-05:00</updated>
-    <id>http://mindscratch.github.io/blog/2013/11/15/gobrewfw</id>
-    <content type="html"><![CDATA[<p>In the Ruby world there&rsquo;s a tool called <a href="http://rvm.io">RVM</a> which makes it easy to install and switch between multiple Ruby versions. However, for developers that work inside a restrictive LAN or behind a Firewall that prevents easy access to sites on the Internet, RVM wasn&rsquo;t a viable option until <a href="https://github.com/stevenhaddox/rvm_fw">RVM::FW</a> was born. <!--more--> <a href="https://github.com/stevenhaddox">Steven Haddox</a> created RVM::FW to allow developers to use RVM in restricted environments.</p>
-
-<p>I&rsquo;ve helped <a href="https://github.com/stevenhaddox/rvm_fw/graphs/contributors">contribute</a> (a little) to RVM::FW and I&rsquo;ve also setup and managed RVM::FW in my work environment.</p>
-
-<p>I&rsquo;ve been slowly learning <a href="http://golang.org/">Go</a> and just last night I stumbled onto <a href="https://github.com/grobins2/gobrew">gobrew</a>:</p>
-
-<blockquote><p>Shell script to download and set GO environmental paths to allow multiple versions.</p></blockquote>
-
-<p>I believe there are few alternatives to gobrew such as <a href="https://github.com/moovweb/gvm">gvm</a>, but I found gobrew first and I&rsquo;ve used it so I&rsquo;m focusing on it (I&rsquo;ve also just <a href="https://github.com/grobins2/gobrew/pull/2">contributed</a> to it).</p>
-
-<p>Since RVM::FW has brought me a lot of joy at work and I&rsquo;m a budding Go programmer, I&rsquo;ve decided to take on <a href="https://github.com/mindscratch/gobrew_fw">gobrew::fw</a>. The project has just been created so there&rsquo;s nothing to see just yet, but soon enough I hope to have an application that enables:</p>
+    <title type="html"><![CDATA[Go: imports with underscores]]></title>
+    <link href="http://mindscratch.github.io/blog/2013/12/06/go-imports-with-underscores/"/>
+    <updated>2013-12-06T23:10:00-05:00</updated>
+    <id>http://mindscratch.github.io/blog/2013/12/06/go-imports-with-underscores</id>
+    <content type="html"><![CDATA[<p>One way I&rsquo;m learning Go is to look at open source Go projects. To list a few:</p>
 
 <ul>
-<li>being able to download and install gobrew</li>
-<li>being able to be a source for Go installation files
-
-<ul>
-<li>instead of gobrew trying to download them from go.googlecode.com</li>
-</ul>
-</li>
+<li><a href="https://github.com/russross/blackfriday">blackfriday</a></li>
+<li><a href="https://github.com/kelseyhightower/envconfig">envconfig</a></li>
+<li><a href="https://github.com/smartystreets/goconvey">GoConvey</a></li>
 </ul>
 
 
-<p>Are you interested in this project? Would it be of use to you? If so, drop me a message on twitter, I&rsquo;m <a href="https://twitter.com/mind_scratch">@mind_scratch</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Go Resources]]></title>
-    <link href="http://mindscratch.github.io/blog/2013/09/01/go-resources/"/>
-    <updated>2013-09-01T20:05:00-04:00</updated>
-    <id>http://mindscratch.github.io/blog/2013/09/01/go-resources</id>
-    <content type="html"><![CDATA[<p>Recently I&rsquo;ve been taking a look at <a href="http://golang.org/">Go by Googlers</a>. Go looks like a very interesting language because of its relatively small syntax, fulfilling standard library and <a href="http://godoc.org/">great documentation</a>.</p>
+<p>Something I&rsquo;ve seen in a few places are imports that have an underscore  <a href="https://github.com/smartystreets/goconvey/blob/24673de23f07dcdbf0fd5b72c9c24dff5840f7db/goconvey.go#L26">before the name</a> of the package.</p>
 
-<p>Here&rsquo;s a few links I&rsquo;ve bookmarked recently that I thought I&rsquo;d share for anyone else getting started or perhaps for myself to look back at when I&rsquo;m a Go Guru :)</p>
-
-<h2>Official</h2>
-
-<ul>
-<li><a href="http://golang.org/">http://golang.org/</a> &ndash; Go official page</li>
-<li><a href="http://godoc.org/">http://godoc.org/</a> &ndash; Go documentation</li>
-<li><a href="Go%20at%20Google:%20Language%20Design%20in%20the%20Service%20of%20Software%20Engineering">http://talks.golang.org/2012/splash.article</a></li>
-</ul>
+<!-- more -->
 
 
-<h2>Books</h2>
-
-<ul>
-<li><a href="http://www.miek.nl/projects/learninggo/">Learning Go</a> [$]</li>
-<li><a href="http://www.golang-book.com/">An Introduction to Programming in Go</a> [free]</li>
-<li><a href="http://www.qtrac.eu/gobook.html">Programming in Go</a> [$]</li>
-<li><a href="http://manning.com/shaw/">Go in Action</a> [$]</li>
-</ul>
 
 
-<h2>Blog Posts</h2>
-
-<ul>
-<li><a href="Ferret:%20A%20Resourceful%20Substring%20Search%20Engine%20in%20Go">http://www.tamber.com/posts/ferret.html</a></li>
-<li><a href="Recycling%20memory%20buffers%20in%20Go">http://blog.cloudflare.com/recycling-memory-buffers-in-go</a></li>
-<li><a href="Go%20After%202%20Years%20in%20Production">http://blog.iron.io/2013/08/go-after-2-years-in-production.html</a></li>
-<li><a href="Two%20recent%20Go%20talks">http://blog.golang.org/two-recent-go-talks</a> (from Jan. 2013, pretty good)</li>
-<li><a href="How%20We%20Went%20from%2030%20Servers%20to%202:%20Go">http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html</a></li>
-<li><a href="What's%20Going%20On">http://jmoiron.net/blog/whats-going-on/</a></li>
-</ul>
+<script src='https://gist.github.com/7837213.js?file='></script>
 
 
-<h2>Libraries/Tools/Gists</h2>
-
-<ul>
-<li><a href="Sarama">https://github.com/Shopify/sarama</a> &ndash; <a href="https://kafka.apache.org/">Kafka</a> client</li>
-<li><a href="GoSublime">https://github.com/DisposaBoy/GoSublime</a> &ndash; plugin for <a href="http://www.sublimetext.com/">SublimeText</a></li>
-<li><a href="Using%20Go%20for%20embarrassingly%20parallel%20scripts">https://gist.github.com/jasonroelofs/4170926</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rack API Image]]></title>
-    <link href="http://mindscratch.github.io/blog/2013/08/05/rack-api-image/"/>
-    <updated>2013-08-05T21:08:00-04:00</updated>
-    <id>http://mindscratch.github.io/blog/2013/08/05/rack-api-image</id>
-    <content type="html"><![CDATA[<p>A simple diagram taken from the excellent video &ldquo;<a href="https://vimeo.com/user12143456/review/69109140/c72efbd052">Rebuilding a Ruby web server</a>&rdquo; showing the basic <a href="http://rack.github.io/">Rack</a> specification:</p>
-
-<p><img class="center" src="http://mindscratch.github.io/images/rack-api.png"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Book Recommendation: Working with Unix Processes]]></title>
-    <link href="http://mindscratch.github.io/blog/2013/07/23/book-recommendation-working-with-unix-processes/"/>
-    <updated>2013-07-23T20:53:00-04:00</updated>
-    <id>http://mindscratch.github.io/blog/2013/07/23/book-recommendation-working-with-unix-processes</id>
-    <content type="html"><![CDATA[<p>Yesterday I received my copy of <a href="http://www.jstorimer.com/products/working-with-unix-processes">Working with Unix Processes</a> written by <a href="http://www.jstorimer.com">Jesse Storimer</a>. I&rsquo;d heard about the book months ago, it might have been even longer.</p>
-
-<p>Today I had some to sit by myself and do some reading.<!--more--> Here&rsquo;s are my thoughts:</p>
-
-<ul>
-<li>great information: this book contains lots of great information about working with processes, as you might expect. The key here is that Jesse actually delivers, what a delight.</li>
-<li>easy to read: something about the font, spacing and use of whitespace on pages was really pleasant</li>
-<li>just enough: content, Jesse doesn&rsquo;t bore you with 500 pages of information copied from Linux man pages, instead he hits the key points and provides enough information to really give you a great understanding of what&rsquo;s going on with processes in Unix</li>
-</ul>
+<div><noscript><pre><code>&lt;html&gt;&lt;body&gt;You are being &lt;a href=&quot;https://github.com/gist/7837213&quot;&gt;redirected&lt;/a&gt;.&lt;/body&gt;&lt;/html&gt;</code></pre></noscript></div>
 
 
-<p>If you&rsquo;re new to Unix or have years of experience, but still aren&rsquo;t real sure what &ldquo;fork + exec&rdquo; is and why it matters, then this book is for you!</p>
+<p>The <a href="http://golang.org/doc/effective_go.html#blank">blank identifier</a> can be used in a few situations, however, the case I want to focus on in this post is <a href="http://golang.org/doc/effective_go.html#blank_unused">Import for side effect</a>.</p>
+
+<p>Reading the description I saw a reference to a function named <em>init</em>, which was something I hadn&rsquo;t heard of before. Sure enough, the <a href="http://golang.org/doc/effective_go.html#init">init function</a> is real and it&rsquo;s kinda special.</p>
+
+<p>The function must have the signature <code>func init() { ... }</code>, that&rsquo;s it. Each source file can have 0 or more <code>init</code> functions, the example above shows foo.go with two <code>init</code> functions.</p>
+
+<p>Wny might you want to use an <code>init</code> function?</p>
+
+<blockquote><p>Besides initializations that cannot be expressed as declarations, a common use of init functions is to verify or repair correctness of the program state before real execution begins.
+&mdash; <cite><a href="http://golang.org/doc/effective_go.html#init">Effective Go</a></cite></p></blockquote>
+
+<p>Tomorrow, not sure yet.</p>
+
+<p>#Day1</p>
 ]]></content>
   </entry>
   
@@ -148,8 +78,10 @@ and LocalStorage</a>. Genius! I hadn&rsquo;t thought about the <a href="http://s
 
 <p>I present my version of a <em>Server in the Browser</em>:</p>
 
-<div><script src='https://gist.github.com/5951148.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<script src='https://gist.github.com/5951148.js?file='></script>
+
+
+<div><noscript><pre><code>&lt;html&gt;&lt;body&gt;You are being &lt;a href=&quot;https://github.com/gist/5951148&quot;&gt;redirected&lt;/a&gt;.&lt;/body&gt;&lt;/html&gt;</code></pre></noscript></div>
 
 
 <p>Certainly this <em>fake</em> logic in the client could do more complicated work such as actually storing data using client-side <a href="http://www.html5rocks.com/en/features/storage">storage</a>. In any event, I look forward to wrapping up my current sprint at work to see just how well this &lsquo;Server in the Browser&rsquo; goes.</p>
