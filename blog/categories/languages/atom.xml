@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: languages | Craig Wickesser]]></title>
+  <link href="http://mindscratch.github.io/blog/categories/languages/atom.xml" rel="self"/>
+  <link href="http://mindscratch.github.io/"/>
+  <updated>2014-01-09T18:43:46-05:00</updated>
+  <id>http://mindscratch.github.io/</id>
+  <author>
+    <name><![CDATA[Craig Wickesser]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Clojure]]></title>
+    <link href="http://mindscratch.github.io/blog/2014/01/09/learning-clojure/"/>
+    <updated>2014-01-09T18:34:00-05:00</updated>
+    <id>http://mindscratch.github.io/blog/2014/01/09/learning-clojure</id>
+    <content type="html"><![CDATA[<h2>Go?</h2>
+
+<p>Sometime in November 2013 I began looking at Go. I started looking at the great documentation and tutorials on the <a href="http://golang.org/">golang</a> site and following all sorts of blogs.</p>
+
+<p>I still think Go is interesting and want to really do something with it, besides read about it and play a bit. The problem I have is not having a project to work on. I try to come up with ideas but don&rsquo;t get far because I get busy with other things in my life.</p>
+
+<!-- more -->
+
+
+<h2>Clojure</h2>
+
+<p>Last weekend I began looking at Functional programming again and found some great resources. I briefly looked at Scala in the past but never got into it because I was heavy into Rails and learning the latest JavaScript goodness.</p>
+
+<p>I still wanted to learn more about Functional programming. I wanted to be able to have a conversation and have a better grasp then just &ldquo;prefer immutable data&rdquo; and &ldquo;higher-order functions&rdquo;.</p>
+
+<p>I decided to play with Clojure because it appears to have been growing in popularity, plus it runs on the JVM (heavily used for the projects I work on at my day job).</p>
+
+<p>Now I&rsquo;m going to dump URLs to Clojure resources that are useful or look at it (in the case I haven&rsquo;t dug into them yet):</p>
+
+<ul>
+<li><a href="http://alexott.net/en/clojure/video.html">http://alexott.net/en/clojure/video.html</a></li>
+<li><a href="http://java.ociweb.com/mark/clojure/article.html">http://java.ociweb.com/mark/clojure/article.html</a></li>
+<li><a href="http://learnxinyminutes.com/docs/clojure/">http://learnxinyminutes.com/docs/clojure/</a></li>
+<li><a href="http://clojure-doc.org/">http://clojure-doc.org/</a></li>
+<li><a href="http://www.learningclojure.com/">http://www.learningclojure.com/</a></li>
+<li><a href="http://thecleancoder.blogspot.com/2010/08/why-clojure.html">http://thecleancoder.blogspot.com/2010/08/why-clojure.html</a></li>
+<li><a href="http://www.braveclojure.com/">http://www.braveclojure.com/</a></li>
+<li><a href="http://learn-clojure.com/get_clojure.html">http://learn-clojure.com/get_clojure.html</a></li>
+</ul>
+
+
+<h2>Next</h2>
+
+<p>I will continue learning about Functional programming and hope to apply some Clojure at work, although I might end having to use Scala since that&rsquo;s already in place for a few projects.</p>
+]]></content>
+  </entry>
+  
+</feed>
