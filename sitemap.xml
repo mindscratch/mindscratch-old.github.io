@@ -4,38 +4,74 @@
         <loc>
             http://mindscratch.github.io/blog/2012/06/02/make-some-objects-for-goodness-sake/
         </loc>
-        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/blog/2013/07/09/yeezus-slash/</loc>
-        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://mindscratch.github.io/blog/2013/07/11/command-query-responsibility-segregation-with-event-sourcing-notes/
         </loc>
-        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://mindscratch.github.io/blog/2013/07/12/prototyping-with-a-server-in-the-browser/
         </loc>
-        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/blog/2013/12/06/go-imports-with-underscores/</loc>
-        <lastmod>2013-12-10T20:05:58-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/blog/2014/01/09/learning-clojure/</loc>
-        <lastmod>2014-01-09T18:43:38-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/about/</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/about.html</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/components.html</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/css.html</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/customize.html</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/getting-started.html</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/assets/bootstrap/javascript.html</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/blog/archives/</loc>
-        <lastmod>2014-01-09T18:43:38-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
     <url>
         <loc>http://mindscratch.github.io/</loc>
-        <lastmod>2014-01-09T18:43:38-05:00</lastmod>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mindscratch.github.io/robots.txt</loc>
+        <lastmod>2014-01-21T13:49:40-05:00</lastmod>
     </url>
 </urlset>
